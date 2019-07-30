@@ -8,7 +8,15 @@
 npm install --save streamjq
 ```
 
-# Syntax
+# Troubleshoot
+
+May need to install the following if installation fails
+
+```
+sudo apt-get install autoconf libtool automake build-essential
+```
+
+# Usage
 
 ```
 const jq = require('streamjq')

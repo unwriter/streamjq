@@ -89,7 +89,7 @@ if (platform in DOWNLOAD_MAP) {
 } else {
   // download source and build
 
-  const url = `${JQ_INFO.url}/${JQ_INFO.version}/${JQ_INFO.version}.tar.gz`
+  const url = `${JQ_INFO.url}${JQ_INFO.version}/${JQ_INFO.version}.tar.gz`
 
   console.log(`Building jq from ${url}`)
   binBuild
