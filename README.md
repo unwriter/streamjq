@@ -8,6 +8,12 @@
 npm install --save streamjq
 ```
 
+May need to install the following packages:
+
+```
+apt-get install libtool autoconf build-essential
+```
+
 # Troubleshoot
 
 May need to install the following if installation fails
